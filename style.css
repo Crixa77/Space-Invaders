@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+
+canvas {
+    box-shadow: black 20px 10px 50px;
+    margin: 40px;
+}
+
+.screen {
+    width: 600px;
+    height: 600px;
+    margin: 40px;
+    box-shadow: black 10px 15px 70px;
+    background-image: url(./images/background.png);
+}
+
+h1{
+    font-size: 54px;
+    font-family: "Helvetica";
+    color: azure;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    padding: 32px;
+    display: grid;
+    grid-column: auto;    
+}
+
+p {
+    color: azure;
+    font-family: "Helvetica";
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.button-place {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 20px;
+    padding: 10px;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family: "Helvetica";
+	font-size:24px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+#score {
+    font-family: "Helvetica";
+    font-size: 48px;
+    color: azure;
+}
+

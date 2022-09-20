@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="index.js"></script>
+
+</head>
+<body>
+
+    <canvas id="game" style="display:none"></canvas>
+
+    <div id="start" class="screen" style="display:block">
+        <div class="container">
+            <h1>Space Invaders</h1>
+
+            <h2>Controls:</h2>
+    
+            <div class="controls">
+                <div class="image">
+                    <img src="./images/arrows.png" alt="" width="120px">
+                    <p>Move</p>
+                </div>
+        
+                <div class="image">
+                    <img src="./images/space.png" alt="" width="240px">
+                    <p>Attack</p>
+                </div>
+            </div>
+           
+            <div class="button-place">
+                <a href="#" id="button-start" class="button">START</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="game-over" class="screen" style="display:none">
+        <h1>Game Over</h1>
+        <h1 id="score"></h1>
+        
+        <div class="button-place">
+            <a href="#" id="button-end" class="button">BACK TO START</a>
+        </div>
+    </div>  
+
+</body>
+</html>
